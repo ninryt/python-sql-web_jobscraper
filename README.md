@@ -196,16 +196,18 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ## 🔸 How to Use
 1. Clone the repository.
-2. Open the SQL script [Jobscraper Script](./database_script.sql) in your preferred SQL environment, such as:
+2. Open the SQL script [Jobscraper Script](./jbs_database_script.sql) in your preferred SQL environment, such as:
 - Azure Data Studio
 - SQL Server Management Studio (SSMS)
 3. Execute the scripts to:
 - Create the database schema: Set up all tables, constraints, and relationships.
-- Populate the tables with sample data (you can use: [Jobscraper Seed Data Example](./seed_data.sql))
+- Populate the tables with sample data (you can use: [Jobscraper Seed Data Example](./jbs_seed_data.sql))
 4. Analyze the data:
 - Use the provided SQL queries (above: "Sample Query 2") or write your own to:
 - Retrieve insights (e.g., travel expenses by month).
 - Perform advanced analysis for reporting purposes.
+5. Connect to SQL using Python [Establish Connection SQL-PY](./establish_connection_sql.py)
+6. Run the Python automation script [Jobscraper Automation Script](./jbs_automation_script.py)
 
 Clone this repository:
    ```bash
