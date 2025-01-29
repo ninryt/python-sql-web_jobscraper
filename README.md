@@ -42,7 +42,7 @@ I was able to mentor while simultaneously strengthening my skills in explaining 
 ## 🔸 Project Architecture:
 Below, you can view the Lucidchart diagram showcasing the database architecture designed for this project. It includes all the key components, such as dimension tables, fact tables, and bridge tables, with clear relationships defined by primary keys, foreign keys, and unique constraints. This visual representation provides a comprehensive understanding of how the database is structured to support efficient storage and analysis of job-related data.
 
-[View the Lucidchart Diagram](https://example.com/lucidchart-diagram)
+🔴 [CHECK THE DATABASE ARCHITECTURE DESIGN PROCESS: ER Diagram](https://example.com/lucidchart-diagram)
 
 ![scrapper3](https://github.com/user-attachments/assets/cf7d8f76-e835-4057-ad9f-8f8c3179f04f)
 
