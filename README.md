@@ -19,6 +19,8 @@ I was able to mentor while simultaneously strengthening my skills in explaining 
 
 ![scrapper5](https://github.com/user-attachments/assets/09a18a73-fafd-4706-8c43-261ba21ca4ff)
 
+---
+
 ## 🔸 Tools used:
 - SQL Server on Azure: For hosting and managing the job scraping database.
 -  Azure Data Studio: For query development, database management, and data exploration.
@@ -26,6 +28,7 @@ I was able to mentor while simultaneously strengthening my skills in explaining 
 - Python: For automating job data scraping, processing, and database interaction.
 - Lucidchart: For designing the database schema and visualizing entity relationships.
 - Excel: For exporting and sharing analyzed job data.
+---
 
 ## 🔸 As part of this project, the following skills were applied:
 
@@ -44,6 +47,8 @@ I was able to mentor while simultaneously strengthening my skills in explaining 
 
 4️⃣ Mentoring and Knowledge Sharing.
 
+---
+
 ## 🔸 Project Architecture:
 Below, you can view the Lucidchart diagram showcasing the database architecture designed for this project. It includes all the key components, such as dimension tables, fact tables, and bridge tables, with clear relationships defined by primary keys, foreign keys, and unique constraints. This visual representation provides a comprehensive understanding of how the database is structured to support efficient storage and analysis of job-related data.
 
@@ -51,8 +56,7 @@ Below, you can view the Lucidchart diagram showcasing the database architecture 
 
 ![scrapper3](https://github.com/user-attachments/assets/cf7d8f76-e835-4057-ad9f-8f8c3179f04f)
 
-
-
+---
 ## 🔸 Guidance and Practical Learning
 As part of the project, I had the opportunity to guide a former colleague who was new to SQL and database design. During our collaboration:
 
@@ -73,6 +77,7 @@ The Lucidchart document includes:
 - My annotations explaining the relationships between tables.
 - Her feedback on the project, along with my responses.
 - This document can be a helpful resource for anyone learning SQL or database design for the first time. It provides not only the architecture but also a real-world example of how to approach building and understanding a database from scratch.
+---
 
 ## 🔸 Features of SQL Database
 1. SQL Database Schema
@@ -143,6 +148,8 @@ BEGIN
     INNER JOIN inserted ON dbo.JobOffers.JobOfferID = inserted.JobOfferID;
 END;
 ```
+---
+
 ## 🔸 Testing SQL Database
 ### Seed Data Example
 To populate the database with initial data for testing, you can use the following SQL scripts. These scripts insert sample data into the dimension and source tables to simulate a real-world scenario.
@@ -162,6 +169,9 @@ VALUES
 ('Freelance hours'),
 ('Project-based hours');
 ```
+
+---
+
 ## 🔸 Python Integration 
 Python played a crucial role in automating the data scraping and processing workflows for this project. Using tools like Selenium and BeautifulSoup, the script dynamically interacted with job platforms such as LinkedIn to extract detailed job postings, even from JavaScript-rendered pages. Python handled everything from parsing job titles, descriptions, locations, and company names to detecting the language of the job description using a custom keyword-based detection algorithm. Once scraped, the data was processed, cleaned, and inserted into the SQL database via libraries like pyodbc. Additionally, Python scripts were used to extract relevant insights from the database, export data to Excel for further use, and automate workflows to ensure the system remained up-to-date with new job postings. This seamless integration of Python ensured efficient data collection, preparation, and usability for further analysis.
 
@@ -186,12 +196,17 @@ driver.get(url)
 # Wait for JavaScript content to load
 time.sleep(5)  # Adjust based on your network speed
 ```
+
+---
+
 ## 🔸 Future Development and Authentication with LinkedIn
 Currently, the data is scraped from LinkedIn without logging into an account. This raised concerns about whether Python could reliably scrape additional job postings and handle pagination or advanced search features. The next phase of the project involves further testing and implementing authentication with LinkedIn to access more job data available to logged-in users. This will require modifying the existing codebase to handle the logged-in version of LinkedIn, ensuring the scraper can navigate and extract data from authenticated sessions.
 
 The next steps of the project will focus on addressing these challenges and expanding the scraper's functionality for enhanced reliability and data coverage. Stay tuned for updates as the project evolves!
 
 ![scrapper2](https://github.com/user-attachments/assets/afcdb332-cd8e-4d5c-bda2-a4deb6a79d14)
+
+---
 
 ## 🔸 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss your ideas.
