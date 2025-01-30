@@ -4,6 +4,11 @@ A SQL and Python-powered system for job scraping, database management, and marke
 
 This repository contains SQL and Python scripts for a comprehensive Job Scraping and Analysis Database Schema. It is designed to facilitate job market analysis by storing scraped job offers and their metadata in a structured, scalable, and normalized manner. The integration of Python ensures seamless automation of scraping, processing, and data management.
 
+---
+![Copy of Drive project](https://github.com/user-attachments/assets/5e54bcd0-22c1-4558-9763-ea1e8411528d)
+
+---
+
 This project also serves as an example for beginners who have never worked with SQL database design, database architecture, or Python automation. During the initial phases of designing the architecture and creating the first database scripts, I was accompanied by a former colleague who was new to these concepts.
 
 It became an excellent learning opportunity for her to explore SQL, database management, and writing her first SQL scripts. Guiding her step-by-step through the process of designing the database architecture, explaining the relationships between tables, and creating the scripts allowed me to deepen my own knowledge. Her questions and feedback helped refine the project and provided valuable insights into teaching and collaboration.
@@ -214,7 +219,11 @@ Clone this repository:
    git clone https://github.com/ninryt/python-sql-web_jobscraper.git
  ```
 
-
+---
+## 👤 Author
+👤 N.B. Ryttel
+📧 [Email me](zerobughero@gmail.com)
+🔗 [Github](https://github.com/ninryt)
 
 
 
