@@ -1,8 +1,10 @@
 # 🐍📊 (Web-Scraper): SQL Database Schema and Python Automation
 
-A SQL and Python-powered system for job scraping, database management, and market analysis
+An ![SQL Badge](https://img.shields.io/badge/SQL-FFD700) and ![Python](https://img.shields.io/badge/Python-006400) -powered system for job scraping, database management, and market analysis
 
 This repository contains SQL and Python scripts for a comprehensive Job Scraping and Analysis Database Schema. It is designed to facilitate job market analysis by storing scraped job offers and their metadata in a structured, scalable, and normalized manner. The integration of Python ensures seamless automation of scraping, processing, and data management.
+
+In this project, you'll also find a detailed explanation of how the database architecture was designed using ![ERD Schemas Badge](https://img.shields.io/badge/ERD%20-F48620) models, as well as how the data was ultimately visualized in ![Tableau Badge](https://img.shields.io/badge/Tableau-8A2BE2).
 
 ---
 ![Copy of Drive project](https://github.com/user-attachments/assets/5e54bcd0-22c1-4558-9763-ea1e8411528d)
